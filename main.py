@@ -8,5 +8,4 @@ def check_payment():
     return jsonify({"payment_status": True})
 
 if __name__ == '__main__':
-    # Run the server on localhost:5000
     app.run(debug=True)
