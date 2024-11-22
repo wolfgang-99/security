@@ -9,7 +9,7 @@ def home():
 @app.route('/check_payment', methods=['GET'])
 def check_payment():
     """Endpoint that returns the payment status."""
-    return jsonify({"payment_status": True})
+    return jsonify({"payment_status": False})
 
 if __name__ == '__main__':
     app.run(debug=True)
